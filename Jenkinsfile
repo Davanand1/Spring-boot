@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Pulling the code from Github') {
             steps {
-                git 'https://github.com/raghavag1997/Spring-boot.git'
+                git '=https://github.com/Davanand1/Spring-boot.git'
             }
         }
         stage('Bulding the Java App') {
